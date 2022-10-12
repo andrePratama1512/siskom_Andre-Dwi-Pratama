@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins,Verdana, Geneva, Tahoma, sans-serif;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 90%;
+    height: 100vh;
+    /* background-color: rgb(174,154,145); */
+}
+#hero-text{
+    margin-left: 20%;
+}
+#hero-img{
+    margin-right: 20%;
+}
+h2{
+    font-size: 3vw;
+}
+p{
+    font-size: 1vw;    
+    margin: 25px 0;
+}
+button#order{
+    border: 0;
+    font-size: 1vw;
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: rgb(170, 170, 170);
+}
+a#see{
+    margin: 0 10px 0 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+a#see:hover{
+    color: green;
+    font-size: 1.1vw;
+    transition: 0.2s;
+}
+img#tangan{
+    width: 180%;
+}
